@@ -1,0 +1,6 @@
+{
+    "search.searchEditor.defaultNumberOfContextLines": 1,
+    "workbench.editor.titleScrollbarSizing": "default",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false
+}

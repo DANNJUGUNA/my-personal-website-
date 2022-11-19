@@ -5,53 +5,52 @@
 
 }
 body{
-    background-color: #fff;
+    background-color:black;
 }
-.header{
+div.header{
     position: relative;
     width:100%;
     height:60px;
     background-color:#070963 ;
-        
-  animation-name: head;
-  animation-duration: 60s;
-
-}
-@keyframes head {
-    0%   {background-color:#070963;}
-    20%  {background-color:black;}
-    40%  {background-color:#070963;}
-    60% {background-color: black;}
-    80%  {background-color:#070963;}
-    85% {background-color: black;}
-    90%  {background-color: #070963;}
-    95% {background-color: black;}
-    100%  {background-color:#070963;}
-  }
-
-.header #header-content{
-    display: flex;
-    width: 80%;
-    margin: auto;
     align-items: center;
     justify-content:space-between;
-
+    text-align: center;
+    border-bottom: #fff;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
 }
-.header #header-content ul li{
+ul.menu{
+  display: inline-block;
+  text-align: left;
+}
+.header  ul li{
   display: inline-block;
   list-style: none;
+  font-size: 20px;
+  padding: 15px;
   margin-bottom: 20px;
-  padding: 25px;
-  
-    
+  margin-top: 10px;
 }
-.header #header-content ul li a{
+.header  ul li a{
     color: #fff;
     text-decoration: none;
 }
+.header ul li a:hover{
+  background-color:#fff;
+  color:black;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.header hr{
+  border-color:#fff;
+  border-style:double;
+  border-width:1px;
+  margin-top: 0;
+}
+
 .home{
-    margin-left: 8%;
-    margin-top: 20%;
+    margin-left: 15%;
+    margin-top: 15%;
 
 }
 
@@ -61,39 +60,42 @@ body{
     font-weight: lighter;
     font-style: oblique;
     position: relative;
-  animation-name: h1;
-  animation-duration: 100s;
+  
 }
-@keyframes h1 {
-    0%   {color: #e8ad0c; right:0px;}
-    20%  {color:black; right:10px;}
-    40%  {color: #e8ad0c; right:10px;}
-    60% {color: black; right:10px;}
-    80%  {color: #e8ad0c; right:10px;}
-    85% {color: black; left:10px}
-    90%  {color: #e8ad0c; left:10px;}
-    95% {color: black; left:10px;}
-    100%  {color: #e8ad0c; left:10px;}
-    
-  }
+
 .home h2{
     font-size: 56px;
-    color: #212121;
+    color: #e2fadc;
     margin-bottom: 2%;
-    font-weight: lighter;
+    font-weight:normal;
     font-style: oblique;
 }
 .home h2 span{
     color: #e8ad0c;
 }
 .home p{
-    color: black;
-    line-height: 22px;
-    width: 400px;
+    color: #e2fadc;
+    line-height: 25px;
+    width: 420px;
     font-weight: lighter;
     font-style: oblique;
-    color: #212121
+    font-size:21px;
+    
     }
-
+div.photo{
+  margin:40%;
+  height: 60%;
+  position: absolute;
+  bottom: -60%;
+  left:20%;
+}
+.photo img{
+  border-radius: 50%;
+  border-color: #fff;
+  border-style: groove;
+  border-width:5px;
+  height: 95%;
+  position: absolute;
+}
     
 
