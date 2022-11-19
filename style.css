@@ -40,7 +40,7 @@ body{
 .header #header-content ul li{
   display: inline-block;
   list-style: none;
-  margin: 10px,20px;
+  margin-bottom: 20px;
   padding: 25px;
   
     
@@ -79,13 +79,14 @@ body{
 .home h2{
     font-size: 56px;
     color: #212121;
-    margin-bottom: 36%;
+    margin-bottom: 2%;
     font-weight: lighter;
     font-style: oblique;
 }
 .home h2 span{
     color: #e8ad0c;
 }
+
 
     
 
