@@ -30,6 +30,7 @@ ul.menu{
   padding: 15px;
   margin-bottom: 20px;
   margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header  ul li a{
     color: #fff;
@@ -69,6 +70,7 @@ ul.menu{
     margin-bottom: 2%;
     font-weight:normal;
     font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .home h2 span{
     color: #e8ad0c;
@@ -96,6 +98,26 @@ div.photo{
   border-width:5px;
   height: 95%;
   position: absolute;
+}
+.photo p{
+  color:#e2fadc;
+  position: absolute;
+  bottom: -0%;
+  width: 100px;
+}
+#port-content h1{
+  color:#fff;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-size:26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5%;
+}
+#port-content p{
+  color:#e2fadc;
+  bottom: -0%;
+  margin-left: 13% ;
 }
     
 
