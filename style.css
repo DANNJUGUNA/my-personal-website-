@@ -86,7 +86,14 @@ body{
 .home h2 span{
     color: #e8ad0c;
 }
-
+.home p{
+    color: black;
+    line-height: 22px;
+    width: 400px;
+    font-weight: lighter;
+    font-style: oblique;
+    color: #212121
+    }
 
     
 
