@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color:black;
+    background-color:white;
 }
 div.header{
     position: relative;
@@ -15,7 +15,7 @@ div.header{
     align-items: center;
     justify-content:space-between;
     text-align: center;
-    border-bottom: #fff;
+    border-bottom: black;
     border-bottom-width: 2px;
     border-bottom-style: solid;
 }
@@ -42,10 +42,10 @@ ul.menu{
   font-size: 20px;
   border-radius: 8px;
 }
-.header hr{
-  border-color:#fff;
+ hr{
+  border-color:black;
   border-style:double;
-  border-width:1px;
+  border-width:2px;
   margin-top: 0;
 }
 
@@ -66,7 +66,7 @@ ul.menu{
 
 .home h2{
     font-size: 56px;
-    color: #e2fadc;
+    color:black;
     margin-bottom: 2%;
     font-weight:normal;
     font-style: oblique;
@@ -76,7 +76,7 @@ ul.menu{
     color: #e8ad0c;
 }
 .home p{
-    color: #e2fadc;
+    color:black;
     line-height: 25px;
     width: 420px;
     font-weight: lighter;
@@ -88,26 +88,26 @@ div.photo{
   margin:40%;
   height: 60%;
   position: absolute;
-  bottom: -60%;
+  bottom: -70%;
   left:20%;
 }
 .photo img{
   border-radius: 50%;
-  border-color: #fff;
+  border-color:#070963 ;
   border-style: groove;
   border-width:5px;
   height: 95%;
   position: absolute;
 }
 .photo p{
-  color:#e2fadc;
+  color:black;
   position: absolute;
   bottom: -0%;
   width: 100px;
   font-style: italic;
 }
 #port-content h1{
-  color:#fff;
+  color:#070963;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
@@ -116,22 +116,25 @@ div.photo{
   margin-top: 5%;
 }
 #port-content p{
-  color:#e2fadc;
+  color:black;
   bottom: -0%;
   font-size: 20px;
   text-align: center;
   
 }
 .front-end{
-  color:#e2fadc;
+  color:black;
  
  
 }
 .front-end h1{
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
+ 
 .back-end{
-  color:#e2fadc;
+  color:black;
  
  
  
@@ -141,13 +144,19 @@ div.photo{
 }
 .images{
   display: inline-flex;
-  padding: 15px;
+  padding: 40px;
+  align-items: center;
+  margin-left: 20%;
+}
+.images img{
+  width: 200px;
+  height: 100px;
 }
 #project{
-  color:#e2fadc;
+  color:black;
 }
 #project h1{
-  color:#fff;
+  color:#070963;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
@@ -156,7 +165,7 @@ div.photo{
   margin-top: 5%;
 }
 #project p{
-  color:#e2fadc;
+  color:black;
   bottom: -0%;
   font-size: 20px;
   text-align: center;
@@ -168,10 +177,10 @@ div.photo{
   margin-left: 5%;
 }
 #contact{
-  color:#e2fadc;
+  color:black;
 }
 #contact h1{
-  color:#fff;
+  color:#070963;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
