@@ -155,7 +155,6 @@ div.photo{
 .images img{
   width: 200px;
   height: 100px;
-  padding: 15px;
 }
 #project{
   color:black;
@@ -207,17 +206,13 @@ div.photo{
 .contact img{
   width: 50px;
   height: 50px;
-  align-items: center; 
- 
-  padding: 15px;
+  align-items: center;
 }
 .contact #icon{
-  margin: auto;
   display: inline-flex;
   padding: 40px;
   align-items: center;
   margin-left: 40%;
-  
 }
 #footer{
   position: relative;

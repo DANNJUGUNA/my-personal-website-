@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0040)http://127.0.0.1:5500/index.html#contact -->
+<html lang="en"><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./My Personal Website_files/style.css">
 </head>
-<body>
+<body data-new-gr-c-s-check-loaded="14.1087.0" data-gr-ext-installed="">
    <section> 
     <div class="header">
         
             <ul class="menu">
-                <li ><a  href="#homepage">HOME</a></li>
-                <li><a href="#port">PORTFOLI0</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#homepage">HOME</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#port">PORTFOLI0</a></li>
                 
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#contact">CONTACT</a></li>
             </ul>
         
     </div>
@@ -32,7 +32,7 @@
         </p>
     </div>
     <div class="photo">
-        <img src="dan.jpg" alt="dan">
+        <img src="./My Personal Website_files/dan.jpg" alt="dan">
         <p>Dan Njuguna</p>
     </div>
     </section>
@@ -55,24 +55,24 @@
             <br>
             <div class="images">
               <figure>
-              <img  src="./images/js.png" alt="html">
+              <img src="./My Personal Website_files/js.png" alt="html">
               <figcaption>HTML,CSS, JavaScript</figcaption>
               </figure>
               <figure>
-              <img src="./images/react.png" alt="rectjs">
+              <img src="./My Personal Website_files/react.png" alt="rectjs">
               <figcaption>React js</figcaption>
             </figure>
               <figure>
-             <img src="./images/node.png" alt="nodejs">
+             <img src="./My Personal Website_files/node.png" alt="nodejs">
              <figcaption>Nodejs</figcaption>
             </figure>
              <figure>
-             <img src="./images/bootstrap.jpeg" alt="bootstrap">
+             <img src="./My Personal Website_files/bootstrap.jpeg" alt="bootstrap">
              <figcaption>Bootstrap</figcaption>
             </figure>
             </div>
             </div>
-          </div>
+          
           <br>
           <div class="back-end">
             <br>
@@ -80,11 +80,11 @@
             <br>
             <div class="images">
               <figure>
-              <img  src="./images/ruby.jpg" alt="ruby">
+              <img src="./My Personal Website_files/ruby.jpg" alt="ruby">
               <figcaption>Ruby</figcaption>
             </figure>
               <figure>
-              <img src="./images/ruby on rails.png" alt="ruby-on-rails">
+              <img src="./My Personal Website_files/ruby on rails.png" alt="ruby-on-rails">
               <figcaption>Ruby on Rails</figcaption>
             </figure>
               
@@ -97,15 +97,15 @@
             <br>
             <div class="images">
               <figure>
-              <img  src="./images/mysql.png" alt="mysql">
+              <img src="./My Personal Website_files/mysql.png" alt="mysql">
               <figcaption>MySQL</figcaption>
             </figure>
               <figure>
-              <img src="./images/postgle.png" alt="postgre">
+              <img src="./My Personal Website_files/postgle.png" alt="postgre">
               <figcaption>Postgresql</figcaption>
             </figure>
               <figure>
-              <img src="./images/firebase.png" alt="firebase">
+              <img src="./My Personal Website_files/firebase.png" alt="firebase">
               <figcaption>Firebase</figcaption>
             </figure>
             </div>
@@ -132,20 +132,58 @@
       <p>Nairobi Kenya</p>
       <p>email:<a href="mailto:ndan30071@gmail.com">ndan30071@gmail.com</a></p>
       <div id="icon">
-      <a href="https://www.linkedin.com/feed/"><img src="./images/linkdin.png" alt="rectjs"></a>
+      <a href="https://www.linkedin.com/feed/"><img src="./My Personal Website_files/linkdin.png" alt="rectjs"></a>
       <a href="https://github.com/DANNJUGUNA">
-        <img src="./images/git.webp" alt="dan"></a>
+        <img src="./My Personal Website_files/git.webp" alt="dan"></a>
       </div>
       </div>
     </section>
     <section id="footer">
       <footer>
         <div>
-          <p>&copy; 2022</p>
+          <p>© 2022</p>
         </div>
       </footer>
     </section>
     
-    <script src="index.js"></script>
-</body>
-</html>
+    <script src="./My Personal Website_files/index.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
