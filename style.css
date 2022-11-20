@@ -104,6 +104,7 @@ div.photo{
   position: absolute;
   bottom: -0%;
   width: 100px;
+  font-style: italic;
 }
 #port-content h1{
   color:#fff;
@@ -117,7 +118,66 @@ div.photo{
 #port-content p{
   color:#e2fadc;
   bottom: -0%;
-  margin-left: 13% ;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.front-end{
+  color:#e2fadc;
+ 
+ 
+}
+.front-end h1{
+  text-align: center;
+}
+.back-end{
+  color:#e2fadc;
+ 
+ 
+ 
+}
+.back-end h1{
+  text-align: center;
+}
+.images{
+  display: inline-flex;
+  padding: 15px;
+}
+#project{
+  color:#e2fadc;
+}
+#project h1{
+  color:#fff;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-size:26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5%;
+}
+#project p{
+  color:#e2fadc;
+  bottom: -0%;
+  font-size: 20px;
+  text-align: center;
+}
+#project-list{
+  margin-left: 20%;
+}
+#project-list dd{
+  margin-left: 5%;
+}
+#contact{
+  color:#e2fadc;
+}
+#contact h1{
+  color:#fff;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-size:26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5%;
 }
     
 
