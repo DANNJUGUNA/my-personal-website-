@@ -1,5 +1,5 @@
-document.getElementById("image1").addEventListener("mouseover", mouseOver);
-document.getElementById("image1").addEventListener("mouseout", mouseOut);
+document.getElementById("image1").addEventListener("mouseover", mouseOver1);
+document.getElementById("image1").addEventListener("mouseout", mouseOut1);
 
 function mouseOver1() {
   document.getElementById("image1").style.background= "black";
